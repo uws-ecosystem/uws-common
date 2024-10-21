@@ -9,7 +9,7 @@ yarn add uws-common
 ## Usage
 ```ts
 import { App } from 'uWebSockets.js'
-import { getBodyJson, getQuery } from 'uws-common'
+import { getBodyJson, getBodyText, getQuery } from 'uws-common'
 
 const port = +(process.env.PORT || 3000)
 
@@ -18,6 +18,7 @@ const app = App()
 app
   .get(pattern, async ({ req, res }) => {
     console.log('Query:', getQuery(req))   // { q: 1, q: 2 }
+    console.log('Text body:', await getBodyText(res))  // "Text in Request Body"
     console.log('JSON body:', await getBodyJson(res))  // { prop1: 1, prop2: 2 }
     res.end('Hello World!')
   })
