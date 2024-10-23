@@ -41,5 +41,25 @@
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "keywords": [
+    "common",
+    "cross-platform",
+    "fast",
+    "http",
+    "http-server",
+    "lightweight",
+    "microws",
+    "middleware",
+    "plugin",
+    "router",
+    "proxy-protocol",
+    "utility",
+    "uws",
+    "uwebsockets",
+    "uwebsocketsjs",
+    "websockets",
+    "µws",
+    "µwebsockets"
+  ]
 }
