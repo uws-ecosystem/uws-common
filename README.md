@@ -1,5 +1,5 @@
 # uws-common
-Common functions and utilities to improve DX (Developer Experience) with [uWebSockets.js](https://github.com/uNetworking/uWebSockets.js).
+Common functions and utilities to improve DX (Developer Experience) with [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js).
 
 ## Installation
 ```sh
